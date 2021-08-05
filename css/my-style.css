@@ -1,0 +1,793 @@
+.sec-cat {
+    border: 3px solid darkgray;
+    border-radius: 30px;
+    max-width: 300px;
+    height: 300px;
+    margin: 20px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.site{
+    margin: 0 auto;
+}
+
+.site-header{
+    height: max-content;
+    background-color: skyblue;
+}
+.site-info{
+   
+    height: min-content;
+    background-color: dimgray !important;
+}
+.container{
+    margin: 0 auto;
+    background-color:whitesmoke;
+}
+.main-row{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.telephon{
+    display: flex;
+    padding: 5px 10px 5px 10px;
+    width: 280px;
+    border: 2px solid darkslategray;
+    border-radius: 8px;
+
+    
+  
+}
+.zakazform{
+    display: flex;
+    background-color: greenyellow;
+    padding: 5px 10px 5px 10px;
+    width: 280px;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 20px;
+  
+}
+.mobi-mbri-phone::before {
+    content: "\e95b";
+}
+.header-style{
+    min-height: 232px;
+    background: center / cover no-repeat url("../image/backheader.png");
+}
+.fa-calendar-alt{
+    font-size: 50px;
+    margin: 20px;
+    color:red;
+}
+.fa-phone{
+    width: 20px;
+    margin-top: 9px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: darkgreen;
+}
+.fa-clipboard{
+    width: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkgreen;
+}
+.lozung {
+    font-size: 20px;
+}
+.fa-calculator{
+    font-size: 50px;
+    margin: 20px;
+    color:green;
+}
+.fa-edit{
+    font-size: 50px;
+    margin: 20px;
+    color:blue;
+}
+.site-branding{
+
+    margin-top: 0px;
+} 
+
+.site-branding{
+    margin-top: 20px;
+} 
+.rem-main{
+    margin: 0px;
+}
+.rem-main h1{
+    padding: 20px;
+   font-size: 50px;
+}
+.site-info-footer{
+    display: flex;
+    justify-content: space-around;
+}
+@media (max-width: 576px) {
+    .site-info-footer{
+        flex-direction: column;
+    }
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    }
+    .rem-main{
+        margin: 0px;
+    }
+    .rem-main h1{
+        font-size: 30px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+@media (max-width: 766px) {
+    .site-info-footer{
+        flex-direction: column;
+    }
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    }
+    .rem-main{
+        margin: 0px;
+    }
+    .rem-main h1{
+        font-size: 30px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+@media (min-width: 767px) {
+    .footer-zag-contact p{
+        font-size: 10px;
+    }
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    padding: 0;
+    }
+    .rem-main{
+        margin: 0px;
+        padding: 0;
+    }
+    .rem-main h1{
+        font-size: 28px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+@media (min-width: 991px) {
+    .footer-zag-contact p{
+        font-size: 14px;
+    }
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    padding: 0;
+    }
+    .rem-main{
+        margin: 0px;
+        padding: 0;
+    }
+    .rem-main h1{
+        font-size: 32px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+@media (min-width: 1199px) {
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    padding: 0;
+    }
+    .rem-main{
+        margin: 0px;
+        padding: 0;
+    }
+    .rem-main h1{
+        font-size: 44px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .header-style{
+        justify-content: flex-start;
+        height: auto;
+    }
+    .site-branding{
+    align-content: flex-start; 
+    align-items: flex-start;   
+    margin-top: 20px;
+    left: 5px;
+    top: 5px;
+    padding: 0;
+    }
+    .rem-main{
+        margin: 0px;
+        padding: 0;
+    }
+    .rem-main h1{
+        font-size: 54px;
+     }
+     
+     .telephon{
+         width:210px;
+         font-size: 20px;
+         margin: 20px;
+         align-content: center;
+
+     }
+     .telephon a{
+         text-decoration: none;
+         color: black;
+     }
+     .fa-phone{
+         font-size: 20px;
+         margin-top: 5px;
+     }
+    
+    
+     .zakazform{
+        width:210px;
+        margin-bottom: 20px;
+        font-size: 20px;
+         
+     }
+    .fa-clipboard{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+     .main-contact{
+         display: flex;
+     }
+     .rem-main{
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+       
+    }
+    .call-master{
+        display: flex;
+        flex-direction: column;
+        margin: 0px; 
+        justify-content: space-between;
+        align-items: center;
+    }
+    .lozung-style-btn{
+        margin-bottom: 30px;
+    }
+    
+    .spanbtn{
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+}
+
+
+
+
+
+.page_item{
+    margin: 10px;
+    font-size: 20px;
+    border-right: dimgray !important;
+}
+.main-menu{
+   
+}
+.lozung2{
+    
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: black;
+    margin-bottom: 30px;
+    }
+
+.lozung-style{
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+   
+}
+.btn-master{
+    display: inline-flex;
+    font-size: 22px;
+    width: 230px;
+    justify-content: center;
+    margin-top: 10%;
+}
+.call-master{
+    background-color:rgb(230, 230, 230);
+}
+.main-price{
+    margin-top: 30px;
+    color: red;
+}
+.main-price2{
+    margin-left: 15px;
+}
+.main-price3{
+    margin-left: 25px;
+}
+.footer-zag h6 {
+    font-size: 20px;
+    color: rgb(53, 14, 14);
+}
+.footer-zag p {
+    font-weight: bold;
+}
+.footer-zag {
+ margin: 10px 10px 0px 20px;    
+}
+.btn-master-cena{
+    display: inline-flex;
+    width: 300px;
+    font-size: 24px;
+    margin-bottom: 60px;
+    align-content: center;
+    justify-content: center;
+}
+.fa-youtube{
+    color: black;
+    margin-right: 5px !important;
+}
+.fa-vk{
+    margin-right: 5px !important;
+}
+.post_thumb{
+    margin: 20px;
+}
+.post_title{
+    margin: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.post_excerpt{
+    margin: 30px;
+}
+.btn{
+    display: inline-flex;
+}
+.telephone{
+    display: inline-flex;
+    margin-top: 10px;
+}
+.form {
+   
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20% 0;
+   
+}
+.form__body {
+    position: relative;
+}
+.form__body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(51,51,51,0.9) url("../image/spinner.gif") center no-repeat;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease 0s;
+}
+.form__body._sending::after{
+    opacity: 1;
+    visibility: visible;
+}
+.form__title {
+    color: honeydew;
+    text-align: center;
+}
+
+.form_item {
+    margin-bottom: 20px;
+}
+.form__label {
+    font-size: 18px;
+    display: block;
+    margin: 0px 0px 10px 0px;
+    color: blanchedalmond;
+}
+.form_input {
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+.form_inputarea{
+    min-height: 100px;
+    padding: 0 20px;
+    border-radius: 5px;
+    width: 100%;
+    resize: vertical;
+}
+.checkbox {
+    display: inline-flex;
+}
+.checkbox__input {
+    align-content: center;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.checkbox__label {
+    color: blanchedalmond;
+}
+.form__button {
+    width: 250px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    align-content: center !important;
+    align-items: center;
+    align-self: center;
+    min-height: 40px;
+    background-color: lawngreen;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    box-shadow: 3px 5px 0px #38502a;
+}
+.form__button:active{
+    top: 3px;
+    box-shadow: 0 2px 0 #38502a;
+}
+.myModal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+.closebtn{
+    color: red;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.form_item>small{
+    color: blanchedalmond;
+    letter-spacing: 1px;
+}
